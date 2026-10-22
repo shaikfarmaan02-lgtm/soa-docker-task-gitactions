@@ -1,0 +1,19 @@
+2026-10-22 08:07:01.746: [INFO] CurrentProfilePath: D:\SOA\soa-docker-task-gitactions\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 08:07:01.746: [INFO] Profiles total count: 1
+2026-10-22 08:07:01.746: [INFO] Profile: name=Profile 1 path=D:\SOA\soa-docker-task-gitactions\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-10-22 08:07:01.746: [INFO] LastUsedProfileDir: D:\SOA\soa-docker-task-gitactions\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 08:07:01.746: [INFO] OnDoneLoading sync enabled: 0
+2026-10-22 08:07:01.746: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-22 08:07:01.746: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-22 08:07:01.746: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 08:07:16.845: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 08:07:17.880: [INFO] CurrentProfilePath: D:\SOA\soa-docker-task-gitactions\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 08:07:17.881: [INFO] Profiles total count: 1
+2026-10-22 08:07:17.881: [INFO] Profile: name=Profile 1 path=D:\SOA\soa-docker-task-gitactions\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T08:07:05.108Z
+2026-10-22 08:07:17.881: [INFO] LastUsedProfileDir: D:\SOA\soa-docker-task-gitactions\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 08:07:17.881: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\SOA\soa-docker-task-gitactions\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T08:07:05.108Z
+2026-10-22 08:07:17.881: [INFO] OnDoneLoading sync enabled: 0
+2026-10-22 08:07:17.881: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-22 08:07:17.881: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-22 08:07:17.881: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 08:08:44.205: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

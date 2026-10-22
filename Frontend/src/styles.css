@@ -1,0 +1,251 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1e293b;
+  background: #f4f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-navbar {
+  min-height: 68px;
+  background: #172b4d;
+  box-shadow: 0 2px 12px rgb(23 43 77 / 12%);
+}
+
+.navbar-brand {
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.brand-mark {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 10px;
+  background: #fff;
+  color: #2463eb;
+  font-weight: 800;
+}
+
+.page-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.page-heading h1 {
+  color: #172b4d;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.eyebrow {
+  color: #55719c;
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+}
+
+.license-count {
+  display: flex;
+  min-width: 94px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.55rem 1rem;
+  border: 1px solid #e1e8f2;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.count-number {
+  color: #172b4d;
+  font-size: 1.35rem;
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+.count-label {
+  color: #718096;
+  font-size: 0.75rem;
+}
+
+.app-card {
+  overflow: hidden;
+  border: 1px solid #e5eaf2;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgb(28 45 74 / 4%);
+}
+
+.app-card > .card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 1.1rem 1.35rem;
+  border-bottom-color: #edf0f5;
+  background: #fff;
+}
+
+.section-icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 11px;
+  background: #edf3ff;
+  color: #2463eb;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.form-label {
+  color: #344563;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.form-control {
+  min-height: 44px;
+  border-color: #dce3ed;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: #86a9ff;
+  box-shadow: 0 0 0 0.2rem rgb(36 99 235 / 13%);
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #2463eb;
+  border-color: #2463eb;
+}
+
+.btn-primary {
+  --bs-btn-bg: #2463eb;
+  --bs-btn-border-color: #2463eb;
+  --bs-btn-hover-bg: #1d53cc;
+  --bs-btn-hover-border-color: #1d53cc;
+}
+
+.table thead th {
+  padding: 0.9rem 1rem;
+  background: #f8faff;
+  color: #687891;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.table tbody td {
+  padding: 0.95rem 1rem;
+  color: #344563;
+  white-space: nowrap;
+}
+
+.license-key {
+  color: #364a67;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.is-active {
+  background: #e8f7ef;
+  color: #16804a;
+}
+
+.is-active .status-dot {
+  background: #20a464;
+}
+
+.is-inactive {
+  background: #f0f2f5;
+  color: #697586;
+}
+
+.is-inactive .status-dot {
+  background: #98a2b3;
+}
+
+.loading-state,
+.empty-state {
+  display: flex;
+  min-height: 220px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loading-state {
+  color: #687891;
+}
+
+.empty-icon {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 16px;
+  background: #edf3ff;
+  color: #2463eb;
+  font-size: 1.65rem;
+}
+
+.empty-state h3 {
+  color: #243b5e;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 0.94rem;
+  }
+
+  .page-heading {
+    align-items: flex-start;
+  }
+
+  .page-heading h1 {
+    font-size: 1.45rem;
+  }
+
+  .license-count {
+    min-width: 76px;
+    padding-inline: 0.7rem;
+  }
+}
